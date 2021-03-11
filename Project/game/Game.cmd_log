@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.xst" -ofn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Game.ucf -p xc7k160t-ffg676-2L "Game.ngc" Game.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -mt off Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf Game.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.xst" -ofn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.xst" -ofn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.xst" -ofn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Game.ucf -p xc7k160t-ffg676-2L "Game.ngc" Game.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -mt off Game_map.ncd Game.ncd Game.pcf 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.xst" -ofn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Game.ucf -p xc7k160t-ffg676-2L "Game.ngc" Game.ngd  
+xst -intstyle ise -ifn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.xst" -ofn "C:/Users/TLT3620/Documents/Tencent Files/86107966/FileRecv/Ip/game/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Game.ucf -p xc7k160t-ffg676-2L "Game.ngc" Game.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -mt off Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf Game.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
